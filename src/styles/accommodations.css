@@ -1,0 +1,61 @@
+/* Container Principal */
+.accommodations-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.accommodations-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #343a40;
+}
+
+/* Lista de Acomodações */
+.accommodations-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Card de Acomodação */
+.accommodation-card {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.accommodation-card:hover {
+    transform: scale(1.03);
+}
+
+.accommodation-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.accommodation-info {
+    padding: 15px;
+}
+
+.accommodation-name {
+    font-size: 20px;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.accommodation-description {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.accommodation-price {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
